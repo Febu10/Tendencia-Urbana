@@ -1,0 +1,66 @@
+/* Estilos para el header/navbar */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Estilos para la sección principal */
+.container-principal {
+  margin-top: 50px;
+}
+/* Estilos para el grid de imágenes */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.image-item {
+  width: 100%;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos responsivos para el grid */
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+.container-principal h1 {
+  text-align: center;
+}
+
+.container-principal p {
+  text-align: center;
+  font-style: italic;
+  font-size:x-large;
+  
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
